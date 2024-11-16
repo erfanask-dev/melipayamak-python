@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "melipayamak"
+version = "1.0.1"
+authors = [{ name = "Melipayamak", email = "info@melipayamak.com" }]
+description = "Melipayamak python SDK"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "zeep>=4.3.1",
+    "requests>=2.32.3",
+    "aiohttp>=3.11.2",
+    "asyncio>=3.4.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/Melipayamak/melipayamak-python"
+Issues = "https://github.com/Melipayamak/melipayamak-python/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["melipayamak*"]

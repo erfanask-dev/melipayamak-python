@@ -16,26 +16,16 @@
 
 <p>پس ازثبت نام  برای نصب از راههای زیر میتوانید اقدام کنید.</p>
 
-#### پیشنیاز ها
-
-برای استفاده از نمونه کدهای پایتون نیاز به نصب پکیج های زیر است:
-
 </div>
 
+#### نصب با pip
 
 ```
-pip install zeep
-pip install requests
-
-//following for async
-pip install aiohttp
-pip install asyncio
+pip install melipayamak
 ```
 
 
 <div dir='rtl'>
-
-سپس repository را دانلود کنید
 
 	
 	
